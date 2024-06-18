@@ -1,18 +1,19 @@
 {
-	"type": "module",
+	"name": "new",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+  "type": "module",
 	"scripts": {
-		"start": "node index.js"
+		"start": "node api/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
 	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
 	"dependencies": {
 		"cors": "^2.8.5",
 		"express": "^4.19.2",
 		"morgan": "^1.10.0"
-	},
-	"name": "api_vn_province_location",
-	"version": "1.0.0",
-	"main": "index.js",
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"description": ""
+	}
 }
